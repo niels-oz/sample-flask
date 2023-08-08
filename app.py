@@ -60,7 +60,7 @@ generations = [
 ]
 
 
-@app.route("/")
+@app.route('/')
 def hello_generations():
     return '<p>Hello Generations!</p>'
 
